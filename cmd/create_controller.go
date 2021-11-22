@@ -1,10 +1,6 @@
 package cmd
 
 import (
-	"fmt"
-	"os"
-	"path/filepath"
-
 	"github.com/spf13/cobra"
 )
 
@@ -36,23 +32,4 @@ var createControllerCmd = &cobra.Command{
 		}
 		createController(name, path, ns)
 	},
-}
-
-func createController(name, path, ns string) {
-	filePath := filepath.Join(path, name+".php")
-	os.MkdirAll(path, os.ModePerm)
-	file, err := os.Create(filePath)
-	if err != nil {
-		fmt.Println("\u274C Unable to create file...")
-		os.Exit(1)
-	} else {
-		_, err := file.WriteString(generateController(name, ns))
-		if err != nil {
-			fmt.Println("\u274C Oops unknown error when writing to file...")
-		} else {
-			fmt.Printf("\u2705 Controller %s created\n", name)
-		}
-	}
-
-	defer file.Close()
 }
