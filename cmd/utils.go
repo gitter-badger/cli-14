@@ -54,11 +54,12 @@ func enableUserSecrets() {
 	}
 	path := filepath.Join(dir, ".jt")
 	os.MkdirAll(path, os.ModePerm)
-	file, err := os.Create(filepath.Join(path, randomString(8)+".json"))
+	id := randomString(8)
+	file, err := os.Create(filepath.Join(path, id+".json"))
 	if err != nil {
 		fmt.Println(err.Error())
 	}
-
+	fmt.Printf("Your secrets ID: %s\n", id)
 	defer file.Close()
 }
 
