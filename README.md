@@ -7,7 +7,7 @@
   curl -LO https://github.com/jarvis-technologies/cli/releases/download/v0.1.2/jt-os-here-arch-here
 </code>
 
-#### Instructions for installing on Windows coming soon
+#### *Instructions for installing on Windows coming soon
 
 # Usage
 ### Help
