@@ -19,7 +19,7 @@
 - <code>jt run</code>
 - <code>jt serve --port 8000 --folder ./public</code>
 - <code>jt serve 8000 ./public</code>
-  ### Options
+### Options
 - --port (-p) Port for PHP Dev Server (default is 8000)
 - --folder (-f) Public folder For PHP Dev Server (default is ./public)
 
@@ -27,7 +27,7 @@
 - <code>jt cc</code>
 - <code>jt create:controller</code>
 - <code>jt cc --name HomeController --path ./app/controllers/ --namespace JtF\\Application</code>
-  ### Options
+### Options
 - --name (-n) Name of Controller (default is HomeController)
 - --namespace Namespace of Controller (default is JtF\\Application)
 - --path (-p) Path to generate (!Must be directory) (default is ./src/controllers/) 
@@ -35,4 +35,4 @@
 ## Enable User Secrets for your application
 - <code>jt secrets</code>
 
-### Thanks for using JT Framework and other my products 😄
+## Thanks for using JT Framework and other my products 😄
