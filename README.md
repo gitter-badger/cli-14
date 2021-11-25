@@ -32,4 +32,7 @@
 - --namespace Namespace of Controller (default is JtF\\Application)
 - --path (-p) Path to generate (!Must be directory) (default is ./src/controllers/) 
 
+### Enable User Secrets for your application
+- <code>jt secrets</code>
+
 ### Thanks for using JT Framework and other my products 😄
