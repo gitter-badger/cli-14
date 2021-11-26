@@ -1,4 +1,4 @@
-[![Gitter](https://badges.gitter.im/jarvis-technologies/community.svg)](https://gitter.im/jarvis-technologies/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/jarvis-technologies/community.svg)](https://gitter.im/jarvis-technologies/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Join the chat at https://gitter.im/jarvis-technologies/cli](https://badges.gitter.im/jarvis-technologies/cli.svg)](https://gitter.im/jarvis-technologies/cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Installation
 ## Linux & Mac OS
