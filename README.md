@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/jarvis-technologies/community.svg)](https://gitter.im/jarvis-technologies/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # Installation
 ## Linux & Mac OS
 ### Global
